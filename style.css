@@ -1,0 +1,234 @@
+
+nav{
+    font-size: 25px;
+    background-color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    border: 2px solid black;
+    
+}
+#logo{
+    font-size: 60px;
+    color: blue;
+}
+h1{
+    font-size: 50px;
+    font-weight: lighter;
+    white-space: nowrap;
+    color: blueviolet;
+}
+p{
+    font-size: 20px;
+    color: blue;
+}
+button{
+    color: white;
+    background-color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+.home{
+    background-color:lightgray;
+    width: 90%;
+    max-width: 1100px;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding:30px;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homeimage{
+    width: 320px;
+    flex-shrink: 0;
+}
+.homeimage img{
+    width: 100%;
+    height: 350px;
+border-radius: 10px;
+object-fit: cover;
+object-position: top;
+display: block;
+}
+.about{
+    border: 2px solid black;
+    background-color: white;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-right: 30px;
+    text-align: center;
+}
+.abouttext{
+    height: 200px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.skill-box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.skill-box img{
+    object-fit: contain;
+    height: 70px;
+    width: 70px;
+}
+p{
+    color: black;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 5px;
+}
+.myintro{
+border: 2px solid grey;
+background-color: white;
+text-align: center;
+border-radius: 12px;
+margin: 25px auto;
+padding: 30px;
+    
+}
+  .myintro p {
+max-width: 700px;
+font-size: 16px;
+line-height: 1.8;
+font-weight: lighter;
+text-align: center;
+margin: 0 auto;
+  }  
+.myintro h2{
+color: blueviolet;
+font-size: 28px;
+margin-bottom: 15px;
+}
+.mycontact {
+border: 2px solid black;
+padding: 30px;
+width: 100%;
+display: flex;
+flex-direction:column ;
+align-items: stretch;
+box-sizing: border-box;
+}
+
+.mycontact h3{
+align-self: center;
+font-size: 40px;
+font-weight: bold;
+color:blueviolet;
+margin-top: 0;
+}
+
+.mycontact .row {
+display: flex;
+align-items: stretch;
+font-size: 16px;
+font-weight: 500;
+flex-direction: row;
+margin-bottom: 15px;
+width: 100%;
+max-width: 500px;
+gap: 5px;
+}
+
+ #box1 {
+font-size: 16px;
+background-color: blue;
+color: white;
+padding: 5px;
+border-radius: 5px;
+margin-top: 10px;
+ }
+ .row input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    box-sizing: border-box;
+ }
+ .row label{
+    font-size: 18px;
+    font-weight: bold;
+    width: 90px;
+    flex-shrink: 0;
+ }
+ .row textarea {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 16px;
+    text-align: left;
+    border: 1px solid gray;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+ }
+@media (max-width:600px) {
+ .mycontact .row {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+}
+.mycontact .row label{
+width: auto;
+margin: 5px;
+}
+.homeimage {
+    width: 100%;
+    max-width: 100%;
+}
+.homeimage img {
+width: 100%;
+height: 240px;
+}
+nav {
+    flex-direction: row;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+}
+.home {
+    box-sizing: border-box;
+    flex-direction: column;
+    margin: 15px auto;
+    padding: 15px;
+}
+.abouttext {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 10px;
+    padding: 15px;
+}
+#logo{
+    font-size: 22px;
+}
+h1 {
+    font-style: 30px;
+    white-space: normal;
+}
+button{
+    font-size: 20px;
+    padding: 12px;
+    margin: 10px 0;
+}
+}
