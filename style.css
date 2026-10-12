@@ -200,6 +200,14 @@ height: 240px;
 object-fit: contain;
  margin-top: 15px;
 }
+    .hometext {
+        text-align:left;
+    }
+    .hometext h1,
+    .hometext p {
+        margin-left:0;
+        padding-left:0;
+    }
 nav {
     flex-direction: row;
     box-sizing: border-box;
